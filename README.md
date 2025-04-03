@@ -5,6 +5,7 @@
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Student5427_Test2&metric=code_smells)](https://sonarcloud.io/dashboard?id=Student5427_Test2)
 
 # План тестирования:
+
 # Аттестационное тестирование
 <ol>
    <li>
@@ -62,6 +63,7 @@
    </li>
 </ol>
 # Блочное тестирование
+
 <ol>
   <li>
     <h3>class TestMatrixOperation(unittest.TestCase)</h3>
