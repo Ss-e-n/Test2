@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+   pull-requests: write
 
 jobs:
   build:
@@ -40,5 +41,7 @@ jobs:
     - name: Report coverage to Coveralls
       env:
         GITHUB_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+          COVERALLS_SERVICE_NAME: github-actions
       run: |
-        coveralls
+        python -m pip install --upgrade coveralls
+        coveralls --service=github-actions
