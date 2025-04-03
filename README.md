@@ -5,6 +5,7 @@
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Student5427_Test2&metric=code_smells)](https://sonarcloud.io/dashboard?id=Student5427_Test2)
 
 # План тестирования:
+
 # Аттестационное тестирование
 <ol>
    <li>
@@ -61,7 +62,6 @@
       </ul>
    </li>
 </ol>
-
 # Блочное тестирование
 <ol>
   <li>
@@ -174,6 +174,7 @@
   </li>
 </ol>
 # Интеграционное тестирование
+
 <ol>
   <li>
     <h3>Тест И1</h3>
